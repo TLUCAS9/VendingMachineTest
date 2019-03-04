@@ -208,7 +208,7 @@ namespace VMCoinProcessor
             }
            
             //If user didn't enter enough coins for the item price, then return change to user. 
-            if (changeBack <= 0)
+            if (changeBack < 0)
             {
                 changeBack = enteredMoney;
             }
