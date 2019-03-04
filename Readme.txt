@@ -1,0 +1,1 @@
+The application requires no user input for startup. Type VMTest.exe at a command prompt. 
